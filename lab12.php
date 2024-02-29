@@ -5,16 +5,16 @@
 </head>
 <body style="background-color:powderblue;">
 <h1>Search Data by Criteria</h1>
-<form method="post">
-<label for="criteria">Search Criteria:</label>
-<select id="criteria" name="criteria">
-<option value="name">Name</option>
-<option value="age">Age</option>
-<option value="city">City</option>
-</select>
-<input type="text" id="searchValue" name="searchValue">
-<input type="submit" value="Search">
-</form>
+    <form method="post">
+    <label for="criteria">Search Criteria:</label>
+        <select id="criteria" name="criteria">
+            <option value="name">Name</option>
+            <option value="age">Age</option>
+            <option value="city">City</option>
+        </select>
+    <input type="text" id="searchValue" name="searchValue">
+    <input type="submit" value="Search">
+    </form>
 <?php
 // Sample data array
 $data = [
