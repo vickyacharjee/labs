@@ -10,15 +10,15 @@
 
     <?php
     function setBackgroundColor() {
-        $dayOfWeek2 = date("l"); // Get the current day of the week
+        $dayOfWeek = date("l"); // Get the current day of the week
 
-        if ($dayOfWeek2 == "Monday") {
+        if ($dayOfWeek == "Monday") {
             return "background-color: #ff5733;"; // Monday
         } elseif ($dayOfWeek == "Tuesday") {
             return "background-color: #33ff57;"; // Tuesday
         } elseif ($dayOfWeek == "Wednesday") {
             return "background-color: #5733ff;"; // Wednesday
-        } elseif ($dayOfWeek2 == "Thursday") {
+        } elseif ($dayOfWeek == "Thursday") {
             return "background-color: #ffffff;"; // Thursday
         } elseif ($dayOfWeek == "Friday") {
             return "background-color: #33b8ff;"; // Friday
